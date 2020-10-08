@@ -1,0 +1,25 @@
+div {
+  border: 2px solid teal;
+}
+
+h1 {
+  background-color: salmon;
+  color: indigo;
+}
+
+body {
+  background-color: lavenderblush;
+}
+
+.italicsssssssss {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#site-title {
+  font-size: 64px;
+  color: cornflowerblue;
+}
