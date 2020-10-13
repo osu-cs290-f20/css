@@ -23,3 +23,42 @@ body {
   font-size: 64px;
   color: cornflowerblue;
 }
+
+ul {
+  list-style-type: none;
+}
+
+div.bold {
+  background-color: mediumaquamarine;
+}
+
+p.italicsssssssss.bold {
+  font-family: monospace;
+}
+
+#site-title.italicsssssssss {
+
+}
+
+.special-div .bold {
+  color: springgreen;
+}
+
+.special-div .italicsssssssss.bold {
+  background-color: tomato;
+}
+
+.special-div > .bold {
+  text-decoration: underline;
+}
+
+/* h1.italicsssssssss */
+
+#site-title ~ div {
+  border-radius: 15px;
+}
+
+#site-title + div {
+  font-size: 20px;
+  border-radius: 100px;
+}
