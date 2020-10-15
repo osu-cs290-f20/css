@@ -1,0 +1,31 @@
+.outer-box {
+  width: 200px;
+  height: 300px;
+  /* padding: 20px; */
+  /* padding: 20px 50px; */
+  padding: 10px 50px 100px 0;
+  /* text-align: center; */
+  border: 5px solid black;
+  margin: 25px;
+}
+
+#special-div {
+  border-bottom: 20px dotted yellowgreen;
+  padding-left: 75px;
+  margin-top: 100px;
+  /* z-index */
+}
+
+.container {
+  border: 5px solid black;
+}
+
+.container .inner-box {
+  display: inline-block;
+  background-color: wheat;
+  border: 3px solid gray;
+  margin: 5px;
+  padding: 20px;
+  min-width: 100px;
+  min-height: 100px;
+}
