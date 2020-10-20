@@ -1,0 +1,16 @@
+body {
+  /* font-family: "Helvetica Neue", Helvetica, sans-serif; */
+  /* font-family: sans-serif; */
+  /* font-family: serif; */
+  /* font-family: monospace; */
+  /* font-family: cursive; */
+  /* font-family: fantasy; */
+  font-family: 'Oswald', sans-serif;
+  /* color: darkslateblue; */
+  color: #45ee7f;
+  /* color: rgba(128, 64, 32, 0.5); */
+  font-size: 20px;
+  /* font-weight: bold; */
+  font-weight: 200;
+  font-style: italic;
+}
