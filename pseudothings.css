@@ -1,3 +1,38 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+li:hover {
+  background-color: lightsalmon;
+  border: 1px solid dimgray;
+  padding: 5px;
+}
+
+li:hover a {
+  font-size: 32px;
+}
+
+input:focus {
+  border: 3px solid black;
+  padding: 5px;
+  outline: none;
+}
+
+a::after {
+  /* content: "↗"; */
+  content: "🤓";
+  /* content: "(This is a link.)" */
+}
+
+.advanced-stuff {
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: fuchsia;
+  border: 3px solid black;
+
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.33);
+  /* border-radius: 50%; */
+  border-radius: 15px;
+  cursor: pointer;
+}
